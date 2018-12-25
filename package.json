@@ -1,6 +1,6 @@
 {
   "name": "webpack-cli",
-  "version": "4.0.0-alpha",
+  "version": "4.0.0-alpha-1",
   "description": "CLI for webpack & friends",
   "license": "MIT",
   "repository": {
@@ -113,6 +113,7 @@
     "cross-spawn": "^6.0.5",
     "inquirer": "^6.0.0",
     "interpret": "^1.1.0",
+    "lerna": "^3.8.0",
     "loader-utils": "^1.1.0",
     "semver": "^5.5.1",
     "supports-color": "^5.5.0",
@@ -149,7 +150,6 @@
     "jest-cli": "^23.6.0",
     "jest-junit": "^5.2.0",
     "jsdoc": "^3.5.5",
-    "lerna": "^3.8.0",
     "lint-staged": "7.x.x",
     "nyc": "^13.1.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
