@@ -138,7 +138,9 @@ export default class InitGenerator extends Generator {
 				this.configuration.config.webpackOptions.mode = this.isProd
 					? "'production'"
 					: "'development'";
-				this.configuration.config.webpackOptions.plugins = this.isProd ? [] : getDefaultPlugins();
+				this.configuration.config.webpackOptions.plugins = this.isProd
+					? []
+					: getDefaultPlugins();
 				return this.prompt([
 					Confirm("babelConfirm", "Will you be using ES2015?"),
 				]);
